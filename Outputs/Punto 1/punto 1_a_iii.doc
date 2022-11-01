@@ -1,0 +1,41 @@
+{\rtf1\ansi\deff0{\fonttbl{\f0\froman Times New Roman;}{\f1\fswiss Arial;}{\f2\fmodern Courier New;}}
+\pard\qc\sb79\sa79\fs29 Tabla 1.1 - Balanceo Muestral grupo 1 en periodo 0\par
+\trowd\intbl\trautofit1\trgaph144\sb79\sa79\trqc\clbrdrt\brdrs\cellx3864\clbrdrt\brdrs\cellx5040\clbrdrt\brdrs\cellx6216\clbrdrt\brdrs\cellx7224\clbrdrt\brdrs\cellx8400\fs24 \ql \cell \qc Y1_mean\cell \qc Y0_mean\cell \qc Y1-Y0\cell \qc p-value\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb79\sa0\trqc\clbrdrt\brdrs\cellx3864\clbrdrt\brdrs\cellx5040\clbrdrt\brdrs\cellx6216\clbrdrt\brdrs\cellx7224\clbrdrt\brdrs\cellx8400\fs24 \pard\intbl\ql Distancia centro medico\cell \pard\intbl\tqdec\tx606 9.948\cell \pard\intbl\tqdec\tx606 10.005\cell \pard\intbl\tqdec\tx538 -0.057\cell \pard\intbl\tqdec\tx538 0.081\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx3864\cellx5040\cellx6216\cellx7224\cellx8400\fs24 \pard\intbl\ql Estrato\cell \pard\intbl\tqdec\tx606 1.998\cell \pard\intbl\tqdec\tx606 1.993\cell \pard\intbl\tqdec\tx538 0.004\cell \pard\intbl\tqdec\tx538 0.844\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx3864\cellx5040\cellx6216\cellx7224\cellx8400\fs24 \pard\intbl\ql Edad de la Madre\cell \pard\intbl\tqdec\tx606 29.452\cell \pard\intbl\tqdec\tx606 29.597\cell \pard\intbl\tqdec\tx538 -0.145\cell \pard\intbl\tqdec\tx538 0.326\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx3864\cellx5040\cellx6216\cellx7224\cellx8400\fs24 \pard\intbl\ql Sexo del capacitador\cell \pard\intbl\tqdec\tx606 0.498\cell \pard\intbl\tqdec\tx606 0.501\cell \pard\intbl\tqdec\tx538 -0.003\cell \pard\intbl\tqdec\tx538 0.705\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa79\trqc\clbrdrb\brdrs\cellx3864\clbrdrb\brdrs\cellx5040\clbrdrb\brdrs\cellx6216\clbrdrb\brdrs\cellx7224\clbrdrb\brdrs\cellx8400\fs24 \pard\intbl\ql Poblacion del municipio\cell \pard\intbl\tqdec\tx606 30.109\cell \pard\intbl\tqdec\tx606 30.204\cell \pard\intbl\tqdec\tx538 -0.095\cell \pard\intbl\tqdec\tx538 0.456\cell\row
+\pard\qc\sb0\sa79\fs19 *Poblacion en miles\par
+\pard\sb0\sa0\fs24\par
+
+\pard\qc\sb79\sa79\fs29 Tabla 1.2 - Balanceo Muestral grupo 1 en periodo 1\par
+\trowd\intbl\trautofit1\trgaph144\sb79\sa79\trqc\clbrdrt\brdrs\cellx3864\clbrdrt\brdrs\cellx5040\clbrdrt\brdrs\cellx6216\clbrdrt\brdrs\cellx7224\clbrdrt\brdrs\cellx8400\fs24 \ql \cell \qc Y1_mean\cell \qc Y0_mean\cell \qc Y1-Y0\cell \qc p-value\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb79\sa0\trqc\clbrdrt\brdrs\cellx3864\clbrdrt\brdrs\cellx5040\clbrdrt\brdrs\cellx6216\clbrdrt\brdrs\cellx7224\clbrdrt\brdrs\cellx8400\fs24 \pard\intbl\ql Distancia centro medico\cell \pard\intbl\tqdec\tx606 9.948\cell \pard\intbl\tqdec\tx606 10.005\cell \pard\intbl\tqdec\tx538 -0.057\cell \pard\intbl\tqdec\tx538 0.081\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx3864\cellx5040\cellx6216\cellx7224\cellx8400\fs24 \pard\intbl\ql Estrato\cell \pard\intbl\tqdec\tx606 1.998\cell \pard\intbl\tqdec\tx606 1.993\cell \pard\intbl\tqdec\tx538 0.004\cell \pard\intbl\tqdec\tx538 0.844\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx3864\cellx5040\cellx6216\cellx7224\cellx8400\fs24 \pard\intbl\ql Edad de la Madre\cell \pard\intbl\tqdec\tx606 31.452\cell \pard\intbl\tqdec\tx606 31.597\cell \pard\intbl\tqdec\tx538 -0.145\cell \pard\intbl\tqdec\tx538 0.326\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx3864\cellx5040\cellx6216\cellx7224\cellx8400\fs24 \pard\intbl\ql Sexo del capacitador\cell \pard\intbl\tqdec\tx606 0.498\cell \pard\intbl\tqdec\tx606 0.501\cell \pard\intbl\tqdec\tx538 -0.003\cell \pard\intbl\tqdec\tx538 0.705\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa79\trqc\clbrdrb\brdrs\cellx3864\clbrdrb\brdrs\cellx5040\clbrdrb\brdrs\cellx6216\clbrdrb\brdrs\cellx7224\clbrdrb\brdrs\cellx8400\fs24 \pard\intbl\ql Poblacion del municipio\cell \pard\intbl\tqdec\tx606 30.109\cell \pard\intbl\tqdec\tx606 30.204\cell \pard\intbl\tqdec\tx538 -0.095\cell \pard\intbl\tqdec\tx538 0.456\cell\row
+\pard\qc\sb0\sa79\fs19 *Poblacion en miles\par
+\pard\sb0\sa0\fs24\par
+
+\pard\qc\sb79\sa79\fs29 Tabla 1.3 - Balanceo Muestral grupo 2 en periodo 0\par
+\trowd\intbl\trautofit1\trgaph144\sb79\sa79\trqc\clbrdrt\brdrs\cellx3864\clbrdrt\brdrs\cellx5040\clbrdrt\brdrs\cellx6216\clbrdrt\brdrs\cellx7224\clbrdrt\brdrs\cellx8400\fs24 \ql \cell \qc Y1_mean\cell \qc Y0_mean\cell \qc Y1-Y0\cell \qc p-value\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb79\sa0\trqc\clbrdrt\brdrs\cellx3864\clbrdrt\brdrs\cellx5040\clbrdrt\brdrs\cellx6216\clbrdrt\brdrs\cellx7224\clbrdrt\brdrs\cellx8400\fs24 \pard\intbl\ql Distancia centro medico\cell \pard\intbl\tqdec\tx606 9.987\cell \pard\intbl\tqdec\tx606 10.001\cell \pard\intbl\tqdec\tx538 -0.014\cell \pard\intbl\tqdec\tx538 0.663\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx3864\cellx5040\cellx6216\cellx7224\cellx8400\fs24 \pard\intbl\ql Estrato\cell \pard\intbl\tqdec\tx606 1.975\cell \pard\intbl\tqdec\tx606 1.995\cell \pard\intbl\tqdec\tx538 -0.021\cell \pard\intbl\tqdec\tx538 0.367\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx3864\cellx5040\cellx6216\cellx7224\cellx8400\fs24 \pard\intbl\ql Edad de la Madre\cell \pard\intbl\tqdec\tx606 29.502\cell \pard\intbl\tqdec\tx606 29.592\cell \pard\intbl\tqdec\tx538 -0.090\cell \pard\intbl\tqdec\tx538 0.548\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx3864\cellx5040\cellx6216\cellx7224\cellx8400\fs24 \pard\intbl\ql Sexo del capacitador\cell \pard\intbl\tqdec\tx606 0.511\cell \pard\intbl\tqdec\tx606 0.500\cell \pard\intbl\tqdec\tx538 0.011\cell \pard\intbl\tqdec\tx538 0.164\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa79\trqc\clbrdrb\brdrs\cellx3864\clbrdrb\brdrs\cellx5040\clbrdrb\brdrs\cellx6216\clbrdrb\brdrs\cellx7224\clbrdrb\brdrs\cellx8400\fs24 \pard\intbl\ql Poblacion del municipio\cell \pard\intbl\tqdec\tx606 30.167\cell \pard\intbl\tqdec\tx606 30.198\cell \pard\intbl\tqdec\tx538 -0.031\cell \pard\intbl\tqdec\tx538 0.810\cell\row
+\pard\qc\sb0\sa79\fs19 *Poblacion en miles\par
+\pard\sb0\sa0\fs24\par
+
+\pard\qc\sb79\sa79\fs29 Tabla 1.4 - Balanceo Muestral grupo 2 en periodo 1\par
+\trowd\intbl\trautofit1\trgaph144\sb79\sa79\trqc\clbrdrt\brdrs\cellx3864\clbrdrt\brdrs\cellx5040\clbrdrt\brdrs\cellx6216\clbrdrt\brdrs\cellx7224\clbrdrt\brdrs\cellx8400\fs24 \ql \cell \qc Y1_mean\cell \qc Y0_mean\cell \qc Y1-Y0\cell \qc p-value\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb79\sa0\trqc\clbrdrt\brdrs\cellx3864\clbrdrt\brdrs\cellx5040\clbrdrt\brdrs\cellx6216\clbrdrt\brdrs\cellx7224\clbrdrt\brdrs\cellx8400\fs24 \pard\intbl\ql Distancia centro medico\cell \pard\intbl\tqdec\tx606 9.987\cell \pard\intbl\tqdec\tx606 10.001\cell \pard\intbl\tqdec\tx538 -0.014\cell \pard\intbl\tqdec\tx538 0.663\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx3864\cellx5040\cellx6216\cellx7224\cellx8400\fs24 \pard\intbl\ql Estrato\cell \pard\intbl\tqdec\tx606 1.975\cell \pard\intbl\tqdec\tx606 1.995\cell \pard\intbl\tqdec\tx538 -0.021\cell \pard\intbl\tqdec\tx538 0.367\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx3864\cellx5040\cellx6216\cellx7224\cellx8400\fs24 \pard\intbl\ql Edad de la Madre\cell \pard\intbl\tqdec\tx606 31.502\cell \pard\intbl\tqdec\tx606 31.592\cell \pard\intbl\tqdec\tx538 -0.090\cell \pard\intbl\tqdec\tx538 0.548\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx3864\cellx5040\cellx6216\cellx7224\cellx8400\fs24 \pard\intbl\ql Sexo del capacitador\cell \pard\intbl\tqdec\tx606 0.511\cell \pard\intbl\tqdec\tx606 0.500\cell \pard\intbl\tqdec\tx538 0.011\cell \pard\intbl\tqdec\tx538 0.164\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa79\trqc\clbrdrb\brdrs\cellx3864\clbrdrb\brdrs\cellx5040\clbrdrb\brdrs\cellx6216\clbrdrb\brdrs\cellx7224\clbrdrb\brdrs\cellx8400\fs24 \pard\intbl\ql Poblacion del municipio\cell \pard\intbl\tqdec\tx606 30.167\cell \pard\intbl\tqdec\tx606 30.198\cell \pard\intbl\tqdec\tx538 -0.031\cell \pard\intbl\tqdec\tx538 0.810\cell\row
+\pard\qc\sb0\sa79\fs19 *Poblacion en miles\par
+\pard\sb0\sa0\fs24\par
+}
