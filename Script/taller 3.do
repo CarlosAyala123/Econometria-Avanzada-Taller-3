@@ -16,7 +16,7 @@ gl out "Outputs\\${punto}"
 use "${data}\planificación_DID.dta", clear
 describe
 
-global X distancia estrato edad_madre sexo_capacitador pob_rural
+global X distancia estrato pob_rural
 global D D_s D_pa
 
 
@@ -24,9 +24,8 @@ global D D_s D_pa
 
 forvalues t=0(1)1{
 	foreach i in $D{
-	mat balanceo_muestral_`i'_t`t'=J(5,4,.)
-	mat rownames balanceo_muestral_`i'_t`t'= "distancia" "estrato" ///
-											 "edad_madre" "sexo_capacitador" "pob_rural"
+	mat balanceo_muestral_`i'_t`t'=J(3,4,.)
+	mat rownames balanceo_muestral_`i'_t`t'= "distancia" "estrato" "pob_rural"
 	mat colnames balanceo_muestral_`i'_t`t'= "Y1_mean" "Y0_mean" "Y1-Y0" "p-value"
 	}
 }
@@ -46,11 +45,9 @@ foreach i in $D{
 			mat balanceo_muestral_`i'_t`t'[`fila',1]= (r(mu_2), r(mu_1), r(mu_2)-r(mu_1), r(p))
 			local fila=`fila'+1
 		}
-		mat balanceo_muestral_`i'_t`t'[5,1]=(p1, p2, p1-p2)
+		mat balanceo_muestral_`i'_t`t'[3,1]=(p1, p2, p1-p2)
 		frmttable using "$out\punto 1_a_iii.doc", s(balanceo_muestral_`i'_t`t') sd(3) ///
 													 rt("Distancia centro medico"\"Estrato"\ ///
-														"Edad de la Madre"\ ///
-														"Sexo del capacitador"\ ///
 														"Poblacion del municipio") ///
 													 t("Tabla 1.`tabla' - Balanceo Muestral grupo `grupo' en periodo `t'") ///
 													 n("*Poblacion en miles") `option'
