@@ -1,0 +1,126 @@
+
+//// Punto 2 - Taller 3 ////
+
+
+clear
+local units = 3
+local start = 1
+local end	= 10
+
+local time = `end' - `start' + 1
+local obsv = `units' * `time'
+set obs `obsv'
+
+egen id	   = seq(), b(`time')  
+egen t 	   = seq(), f(`start') t(`end') 	
+
+sort  id t
+xtset id t
+
+lab var id "Panel variable"
+lab var t  "Time  variable"
+
+gen D = 0
+replace D = 1 if id==2 & t>=5
+replace D = 1 if id==3 & t>=8
+lab var D "Treated"
+
+gen Y = 0
+replace Y = D * 2 if id==2 & t>=5
+replace Y = D * 4 if id==3 & t>=8
+
+lab var Y "Outcome variable"
+
+* Punto 2A ii *
+
+twoway (connected Y t if id==1) (connected Y t if id==2) (connected Y t if id==3)
+
+* Punto 2A iii *
+
+xtreg Y D i.t, fe
+
+bacondecomp Y D, ddetail
+
+mat li e(sumdd) // Me arroja la tabla de la descomposición en forma matricial, para hacer operaciones
+
+
+clear
+local units = 30
+local start = 1
+local end   = 60
+
+local time = `end' - `start' + 1
+local obsv = `units' * `time'
+set obs `obsv'
+
+egen id	   = seq(), b(`time')  
+egen t 	   = seq(), f(`start') t(`end') 	
+
+sort  id t
+xtset id t
+
+lab var id "Panel variable"
+lab var t  "Time  variable"
+
+set seed 13082021
+
+cap drop Y
+cap drop D
+cap drop cohort
+cap drop effect
+cap drop timing
+
+gen Y 	   = 0		// outcome variable	
+gen D 	   = 0		// intervention variable
+gen cohort = .  	// total treatment variables
+gen effect = .		// treatment effect size
+gen timing = .		// when the treatment happens for each cohort
+
+
+levelsof id, local(lvls)
+foreach x of local lvls {
+	local chrt = runiformint(0,5)	
+	replace cohort = `chrt' if id==`x'
+}
+
+
+levelsof cohort , local(lvls)  //  let all cohorts be treated for now
+foreach x of local lvls {
+	
+	// (a) effect
+	
+	local eff = runiformint(2,10)
+		replace effect = `eff' if cohort==`x'
+		
+	// (b) timing	
+	
+	local timing = runiformint(`start' + 5,`end' - 5)	
+	replace timing = `timing' if cohort==`x'
+		replace D = 1 if cohort==`x' & t>= `timing' 
+}
+
+replace Y = id + t + cond(D==1, effect * (t - timing), 0)
+
+
+** Punto D i **
+
+
+twoway (connected Y t if id==1) (connected Y t if id==2) (connected Y t if id==3) (connected Y t if id==4) (connected Y t if id==5)  (connected Y t if id==6) (connected Y t if id==7) (connected Y t if id==8) (connected Y t if id==9) (connected Y t if id==10) (connected Y t if id==11) (connected Y t if id==12) (connected Y t if id==13) (connected Y t if id==14) (connected Y t if id==15) (connected Y t if id==16) (connected Y t if id==17) (connected Y t if id==18) (connected Y t if id==19) (connected Y t if id==20) (connected Y t if id==21) (connected Y t if id==22) (connected Y t if id==23) (connected Y t if id==24) (connected Y t if id==25) (connected Y t if id==26) (connected Y t if id==27) (connected Y t if id==28) (connected Y t if id==29) (connected Y t if id==30)
+
+
+** Punto D ii **
+
+asdoc reghdfe Y D, absorb (id t)
+
+** Punto E **
+
+bacondecomp Y D, ddetail
+
+** Punto F ** 
+
+csdid Y, ivar(id) time(t) gvar(timing)
+
+
+
+
+
