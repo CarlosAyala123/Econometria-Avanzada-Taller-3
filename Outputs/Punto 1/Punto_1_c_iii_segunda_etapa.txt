@@ -1,0 +1,17 @@
+Tabla 1.13 - Segunda Etapa				
+		(1)	(2)	(3)
+VARIABLES	LABELS	Grupo 1	Grupo 2	Efecto combinado
+				
+D_sola	Tratamiento efectivo en el grupo 1	0.392***		
+		(0.0101)		
+D_pareja	Tratamiento efectivo en el grupo 2		0.378***	
+			(0.0103)	
+D_pooled	Tratamiento efectivo en el grupo 1 o 2			0.387***
+				(0.00628)
+Constant	Constant	0.354***	0.356***	0.354***
+		(0.00365)	(0.00363)	(0.00182)
+				
+Observations		33,042	33,272	100,000
+Number of id_hogar		16,521	16,636	50,000
+Standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				

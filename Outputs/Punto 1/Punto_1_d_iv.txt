@@ -1,0 +1,125 @@
+Tabla 1.14 - Efecto del sexo del encuestador				
+		(1)	(2)	(3)
+VARIABLES	LABELS	Grupo 1	Grupo 2	Efecto combinado
+				
+1.post	Dummy del periodo post tratamiento = 1	-0.00596	0.00528	0.00108
+		(0.00956)	(0.0110)	(0.00513)
+1.sexo_capacitador	Sexo del capacitador: 1.mujer, 0.hombre = 1	-0.00909	0.000866	0.00131
+		(0.00939)	(0.0111)	(0.00512)
+0b.post#0b.sexo_capacitador		0	0	0
+		(0)	(0)	(0)
+0b.post#1o.sexo_capacitador		0	0	0
+		(0)	(0)	(0)
+1o.post#0b.sexo_capacitador		0	0	0
+		(0)	(0)	(0)
+1.post#1.sexo_capacitador		0.0132	-0.0274*	-0.00433
+		(0.0138)	(0.0162)	(0.00771)
+1.P_sola	Asignado al tratamiento en el grupo 1 = 1	0.0660***		
+		(0.0112)		
+0b.post#0b.P_sola		0		
+		(0)		
+0b.post#1o.P_sola		0		
+		(0)		
+1o.post#0b.P_sola		0		
+		(0)		
+1.post#1.P_sola		0.269***		
+		(0.0141)		
+0b.sexo_capacitador#0b.P_sola		0		
+		(0)		
+0b.sexo_capacitador#1o.P_sola		0		
+		(0)		
+1o.sexo_capacitador#0b.P_sola		0		
+		(0)		
+1.sexo_capacitador#1.P_sola		0.0143		
+		(0.0141)		
+0b.post#0b.sexo_capacitador#0b.P_sola		0		
+		(0)		
+0b.post#0b.sexo_capacitador#1o.P_sola		0		
+		(0)		
+0b.post#1o.sexo_capacitador#0b.P_sola		0		
+		(0)		
+0b.post#1o.sexo_capacitador#1o.P_sola		0		
+		(0)		
+1o.post#0b.sexo_capacitador#0b.P_sola		0		
+		(0)		
+1o.post#0b.sexo_capacitador#1o.P_sola		0		
+		(0)		
+1o.post#1o.sexo_capacitador#0b.P_sola		0		
+		(0)		
+1.post#1.sexo_capacitador#1.P_sola		-0.0303		
+		(0.0221)		
+1.P_pareja	Asignado al tratamiento en el grupo 2 = 1		0.0549***	
+			(0.0121)	
+0b.post#0b.P_pareja			0	
+			(0)	
+0b.post#1o.P_pareja			0	
+			(0)	
+1o.post#0b.P_pareja			0	
+			(0)	
+1.post#1.P_pareja			0.250***	
+			(0.0170)	
+0b.sexo_capacitador#0b.P_pareja			0	
+			(0)	
+0b.sexo_capacitador#1o.P_pareja			0	
+			(0)	
+1o.sexo_capacitador#0b.P_pareja			0	
+			(0)	
+1.sexo_capacitador#1.P_pareja			0.00696	
+			(0.0167)	
+0b.post#0b.sexo_capacitador#0b.P_pareja			0	
+			(0)	
+0b.post#0b.sexo_capacitador#1o.P_pareja			0	
+			(0)	
+0b.post#1o.sexo_capacitador#0b.P_pareja			0	
+			(0)	
+0b.post#1o.sexo_capacitador#1o.P_pareja			0	
+			(0)	
+1o.post#0b.sexo_capacitador#0b.P_pareja			0	
+			(0)	
+1o.post#0b.sexo_capacitador#1o.P_pareja			0	
+			(0)	
+1o.post#1o.sexo_capacitador#0b.P_pareja			0	
+			(0)	
+1.post#1.sexo_capacitador#1.P_pareja			0.0189	
+			(0.0241)	
+1.P_pooled	Asignado al tratamiento en el grupo 1 o 2 = 1			0.0655***
+				(0.00709)
+0b.post#0b.P_pooled				0
+				(0)
+0b.post#1o.P_pooled				0
+				(0)
+1o.post#0b.P_pooled				0
+				(0)
+1.post#1.P_pooled				0.258***
+				(0.00947)
+0b.sexo_capacitador#0b.P_pooled				0
+				(0)
+0b.sexo_capacitador#1o.P_pooled				0
+				(0)
+1o.sexo_capacitador#0b.P_pooled				0
+				(0)
+1.sexo_capacitador#1.P_pooled				0.00509
+				(0.00945)
+0b.post#0b.sexo_capacitador#0b.P_pooled				0
+				(0)
+0b.post#0b.sexo_capacitador#1o.P_pooled				0
+				(0)
+0b.post#1o.sexo_capacitador#0b.P_pooled				0
+				(0)
+0b.post#1o.sexo_capacitador#1o.P_pooled				0
+				(0)
+1o.post#0b.sexo_capacitador#0b.P_pooled				0
+				(0)
+1o.post#0b.sexo_capacitador#1o.P_pooled				0
+				(0)
+1o.post#1o.sexo_capacitador#0b.P_pooled				0
+				(0)
+1.post#1.sexo_capacitador#1.P_pooled				-0.00853
+				(0.0139)
+Constant	Constant	0.358***	0.360***	0.354***
+		(0.00747)	(0.00788)	(0.00364)
+				
+Observations		33,042	33,272	100,000
+R-squared		0.073	0.068	0.056
+Robust standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				

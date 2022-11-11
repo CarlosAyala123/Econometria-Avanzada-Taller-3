@@ -1,0 +1,19 @@
+Tabla 1.11 - Primera Etapa				
+		(1)	(2)	(3)
+VARIABLES	LABELS	Grupo 1	Grupo 2	Efecto combinado
+				
+post	Dummy del periodo post tratamiento	-0.258***	-0.248***	-0.168***
+		(0.00346)	(0.00530)	(0.00236)
+t_p_s	t_p_s	0.511***		
+		(0.00503)		
+t_p_pa	t_p_pa		0.497***	
+			(0.00612)	
+t_p_po	t_p_po			0.504***
+				(0.00317)
+Constant	Constant	0.258***	0.248***	0.168***
+		(0.00346)	(0.00306)	(0.00149)
+				
+Observations		33,042	33,272	100,000
+R-squared		0.170	0.165	0.202
+Robust standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				
